@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets" version="0.1.0.0" id="geoalarm">
+	<author href="http://www.twitter.com/inktoad" rim:copyright="Copyright 2013-2014 Manuel Patlan">Manuel Patlan</author>
+
+	<name>GeoAlarm</name>
+ 
+	<description>
+		GeoAlarm es una aplicacion que permite que duermas en el bus sin preocuparte por saber si ya llegaste a tu destino. Cuando te aproximes GeoAlarm sonara una alarma indicandote que de debes despertar.
+	</description>
+ 
+	<rim:permissions>
+		<rim:permit>read_device_identifying_information</rim:permit>
+		<rim:permit>access_location_services</rim:permit>
+		<rim:permit>_sys_use_consumer_push</rim:permit>
+		<rim:permit>run_when_backgrounded</rim:permit>
+		<rim:permit>post_notifications</rim:permit>
+		<rim:permit>access_location_services</rim:permit>
+	</rim:permissions>
+
+	<icon src="img/icon.png"/>
+
+	<rim:splash src="img/splash-1280x768.png"/>
+	<rim:splash src="img/splash-768x1280.png"/>
+
+	<content src="index.html"/>
+
+	<feature id="blackberry.ui.dialog"/>
+  
+	<feature id="blackberry.app">
+		<param name="orientation" value="portrait" />
+		<param name="backgroundColor" value="0xFFFF0000" />
+	</feature>
+
+	<access uri="http://www.twitter.com/inktoad" subdomains="true">
+		<feature id="blackberry.app" required="true" version="1.0.0"/>
+		<feature id="blackberry.invoke" required="true" version="1.0.0"/>
+	</access>
+
+	<license href="http://www.twitter.com/inktoad"/>
+
+</widget>

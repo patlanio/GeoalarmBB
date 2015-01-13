@@ -1,0 +1,13 @@
+{
+  "name": "GeoAlarm",
+  "description": "Duerme tranquilamente en el bus",
+  "launch_path": "/",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Manuel Patlan",
+    "url": "http://about.me/patlan"
+  },
+  "default_locale": "es"
+}

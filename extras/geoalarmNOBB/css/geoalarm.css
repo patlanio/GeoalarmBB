@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+body{
+	font-family: Segoe UI, Verdana, Arial;
+	font-size: 16px;
+}
+
+h1{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	background-color: #999999;
+	display: inline-block;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#restante{
+	display: inline-block;
+	background-color: red;
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+	width: 5%;
+}
+
+header, footer{
+	background-color: gray;
+	display: inline-block;
+	height: 40px;
+	padding-top: 4px;
+	width: 100%;
+}
+
+footer{
+	text-align: center;
+}
+
+footer button{
+	height: 32px;
+	width: 33%;
+}
+
+#formularioDestino{
+	display: inline-block;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	width: 85%;
+}
+
+#destino, #enviar{
+	color: gray;
+	height: 32px;
+	vertical-align: middle;
+}
+
+#destino{
+	width: 60%;
+}
+
+#enviar{
+	background-color: orange;
+	border: 1px solid red;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+
+	width: 20%;
+}
+
+#contenidoPrincipal{
+	vertical-align: top;
+}
+
+#rutas, #configuracion{
+	background-color: orange;
+	display: inline-block;
+	vertical-align: top;
+	width: 19%;
+}
+
+#rutas, #configuracion, #mapa{
+	height: 550px;
+}
+
+#mapa{
+	background-color: blue;
+	width: 60%;
+}
+
+aside ul li{
+	background-color: #999999;
+	height: 32px;
+	text-decoration: none;
+	width: 100%;
+	list-style: none;
+}
+
+aside ul li:hover{
+	background-color: gray;
+	cursor: pointer;
+}
+
+#coordenadas{
+	background-color: gray;
+	color: orange;
+	width: 90%;
+	padding: 5%;
+}
+
+.titulo{
+	font-size: 20;
+	font-weight: bold;
+	color: gray;
+	text-align: center;
+}
+
+#mapa{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+
+#t{
+	font-weight: bold;
+	color: red;
+}

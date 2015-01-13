@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	height: 100%;
+}
+
+header{
+	background-color: gray;
+	height: 40px;
+	padding: 4px 4px 0;
+	color: orange;
+}
+
+h1{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	width: 15%;
+}
+
+#formularioDestino{
+	display: inline-block;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	width: 80%;
+	vertical-align: top
+}
+
+#destino, #enviar{
+	color: gray;
+	height: 32px;
+	font-size: 16px;
+	
+}
+
+#destino{
+	width: 80%;
+}
+
+#enviar{
+	width: 17.5%;
+	background-color: orange;
+	border: 1px solid red;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#contenidoPrincipal{
+	vertical-align: top;
+}
+
+aside{
+	background-color: orange;
+	display: inline-block;
+	vertical-align: top;
+	width: 29%;
+}
+
+aside, #mapa{
+	height: 600px;
+}
+
+#coordenadas{
+	background-color: gray;
+	color: orange;
+	width: 90%;
+	padding: 5%;
+}
+
+.titulo{
+	font-size: 20;
+	font-weight: bold;
+	color: gray;
+	text-align: center;
+}
+
+#mapa{
+	width: 70%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+
+#t{
+	font-weight: bold;
+	color: red;
+}
